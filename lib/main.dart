@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uyishi_62/animatsiya.dart';
 import 'package:uyishi_62/galera.dart';
 
 void main() {
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ImageGallery(),
+      // home: ImageGallery(),
+      home: HomeScreen(),
     );
   }
 }
